@@ -76,10 +76,54 @@ namespace CatWorx.BadgeMaker
                     Image badge = new Bitmap(BADGE_WIDTH, BADGE_HEIGHT);
                     Graphics graphic = Graphics.FromImage(badge);
 
+                    //Picture
                     graphic.DrawImage(background, new Rectangle(0,0,BADGE_WIDTH, BADGE_HEIGHT));
                     graphic.DrawImage(photo, new Rectangle(PHOTO_START_X, PHOTO_START_Y, PHOTO_WIDTH, PHOTO_HEIGHT));
 
-                    badge.Save("data/employeeBadge.png");
+                    //Company name
+                    graphic.DrawString(
+                        employees[i].GetCompanyName(),
+                        font,
+                        new SolidBrush(Color.White),
+                        new Rectangle(
+                            COMPANY_NAME_START_X,
+                            COMPANY_NAME_START_Y,
+                            BADGE_WIDTH,
+                            COMPANY_NAME_WIDTH
+                        ),
+                        format
+                    );
+
+                    //Employee name
+                    graphic.DrawString(
+                        employees[i].GetName(),
+                        font,
+                        brush,
+                        new Rectangle(
+                            EMPLOYEE_NAME_START_X,
+                            EMPLOYEE_NAME_START_Y,
+                            BADGE_WIDTH,
+                            EMPLOYEE_NAME_HEIGHT
+                        ),
+                        format
+                    );
+
+                    //Employee ID
+                    graphic.DrawString(
+                        employees[i].GetId().ToString(),
+                        monoFont,
+                        brush,
+                        new Rectangle(
+                            EMPLOYEE_ID_START_X,
+                            EMPLOYEE_ID_START_Y,
+                            EMPLOYEE_ID_WIDTH,
+                            EMPLOYEE_ID_HEIGHT
+                        ),
+                        format
+                    );
+
+                    string template = "data/badge_{0}.png";
+                    badge.Save(string.Format(template, employees[i].GetId()));
                 }
             }
         }
