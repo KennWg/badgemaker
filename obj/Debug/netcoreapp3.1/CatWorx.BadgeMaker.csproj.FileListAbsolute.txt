@@ -1,0 +1,13 @@
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\CatWorx.BadgeMaker.exe
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\CatWorx.BadgeMaker.deps.json
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\CatWorx.BadgeMaker.runtimeconfig.json
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\CatWorx.BadgeMaker.runtimeconfig.dev.json
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\CatWorx.BadgeMaker.dll
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\CatWorx.BadgeMaker.pdb
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\obj\Debug\netcoreapp3.1\CatWorx.BadgeMaker.csprojAssemblyReference.cache
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\obj\Debug\netcoreapp3.1\CatWorx.BadgeMaker.AssemblyInfoInputs.cache
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\obj\Debug\netcoreapp3.1\CatWorx.BadgeMaker.AssemblyInfo.cs
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\obj\Debug\netcoreapp3.1\CatWorx.BadgeMaker.csproj.CoreCompileInputs.cache
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\obj\Debug\netcoreapp3.1\CatWorx.BadgeMaker.dll
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\obj\Debug\netcoreapp3.1\CatWorx.BadgeMaker.pdb
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\obj\Debug\netcoreapp3.1\CatWorx.BadgeMaker.genruntimeconfig.cache
