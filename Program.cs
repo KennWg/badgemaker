@@ -7,7 +7,17 @@ namespace CatWorx.BadgeMaker
 {
   static void Main(string[] args)
   {
-    List<Employee> employees = PeopleFetcher.GetFromApi();
+    Console.WriteLine("Would you like to generate badges using the API?  Press Y if so:");
+    string res = Console.ReadLine();
+
+    List<Employee> employees;
+
+    if(res == "Y" | res=="y"){
+      employees = PeopleFetcher.GetFromApi();
+    } else {
+      employees = PeopleFetcher.GetEmployees();
+    }
+
     Util.PrintEmployees(employees);
     Util.MakeCSV(employees);
     Util.MakeBadges(employees);
