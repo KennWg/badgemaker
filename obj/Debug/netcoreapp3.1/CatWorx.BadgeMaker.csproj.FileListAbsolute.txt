@@ -17,3 +17,4 @@ S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\runt
 S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
 S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
 S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\obj\Debug\netcoreapp3.1\CatWorx.BadgeMaker.csproj.CopyComplete
+S:\CodingBootcamp\ContinuationC#\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
